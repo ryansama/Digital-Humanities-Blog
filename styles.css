@@ -1,3 +1,8 @@
+/*
+AUTHOR: RYAN SAMARAJEEWA
+DATE: 6 October 2015
+*/
+
 .jumbotron{
   margin-bottom: 0px;
   background-image: url('img/peerj-cs-eniac.jpg');
@@ -12,6 +17,24 @@
 
 .heading{
     padding-left: 40px;
+}
+
+body{
+	font-family:sans-serif;
+	background-color:#E8E8E8;
+}
+
+a:link { /* unvisited link */
+text-decoration: none; color:#HEXCOLOR;
+}
+a:visited { /* visited link */
+text-decoration: none; color: #HEXCOLOR;
+}
+a:hover { /* mouse-over */
+text-decoration: underline; color: #HEXCOLOR;
+}
+a:active { /* active link */
+text-decoration: underline; color: #HEXCOLOR;
 }
 
 .content-padding{
@@ -43,10 +66,12 @@ img {
   height: auto;
 }
 
-aside{
-
-  padding: 5px;
-  margin-bottom: 2px;
+article {
+padding:10px 0 10px 30px; /* Top, right, bottom, left */
+}
+aside {
+padding:10px 0 10px 30px;
+margin-bottom: 2px;
 }
 
 

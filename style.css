@@ -27,11 +27,11 @@ body{/*a selector*/
 
 a:link { /* unvisited link */
   text-decoration: none;
-  color:#83b100;
+  color: #ee6438;
 }
 a:visited { /* visited link */
   text-decoration: none;
-  color: #ee6438;
+  color: #83b100;
 }
 a:hover { /* mouse-over */
   text-decoration: underline;

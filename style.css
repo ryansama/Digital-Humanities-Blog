@@ -25,21 +25,30 @@ body{/*a selector*/
 	background-color:#E8E8E8;
 }
 
+
 a:link { /* unvisited link */
   text-decoration: none;
-  color: #ee6438;
+  color: #e33a3a;
 }
 a:visited { /* visited link */
   text-decoration: none;
-  color: #83b100;
+  color: #e33a3a;
 }
 a:hover { /* mouse-over */
   text-decoration: underline;
-  color: #aa03ad;
+  color: #f14800;
 }
 a:active { /* active link */
   text-decoration: underline;
-  color: #069045;
+  color: #900648;
+}
+
+a.my-name:link, a.my-name:visited{
+  color: #00b67f;
+}
+
+a.my-name:hover{
+  color: #01931c;
 }
 
 .content-padding{

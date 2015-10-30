@@ -29,7 +29,7 @@
 
 
   <script>
-  /**
+
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -37,7 +37,6 @@
 
     ga('create', 'UA-68826859-1', 'auto');
     ga('send', 'pageview');
-  */
 
   </script>
 </head>
@@ -50,6 +49,68 @@
       <div class="row content-padding">
         <!--Main Content -->
         <div class="col-md-9">
+
+          <section id="GroupF" >
+              <article>
+                <header>
+                  <h3>Log 6 - <em>Distant Reading</em></h3>
+                  <h5>Posted on October 29th, 2015 by Ryan Samarajeewa</h5>
+                </header>
+                <div class="log6-text row log-content">
+                  <div class="col-md-13">
+                    <p class="log-content-para">
+                      Reading, analyzing, and interpreting text are common tasks in the humanities. Today we have millions of literary works and books available for research, but performing close reading (reading every detail of a text repeatedly) on many of these works is tedious and time consuming. Distant reading is an alternative to this task.
+                    </p>
+                    <p class="log-content-para">
+                      The motivation behind distant reading is to scan text and visualize its main ideas, word frequencies and trends. It is advantageous for scholars and researchers because it is much less time consuming than close reading. However, its capabilities are limited in that the user would be unable to obtain a deep understanding of the text.
+                    </p>
+                    <p class="log-content-para">
+                      Software allow us to conduct this process without requiring the user to read the given text. <a href="http://voyant-tools.org/">Voyant</a> is an example of one such technology that accepts text and provides data such as graphs and details such as keyword density and word frequency. It is up to the user to interpret this information for their benefit in research. Below are screenshots of Voyant being used to analyze a speech by Abraham Lincoln.
+                    </p>
+                  </div>
+                </div>
+            </article>
+            <div id="myCarousel" class="log-6-carousel carousel slide" data-ride="carousel">
+              <!-- Indicators -->
+              <ol class="carousel-indicators">
+                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel" data-slide-to="1"></li>
+                <li data-target="#myCarousel" data-slide-to="2"></li>
+              </ol>
+
+              <!-- Wrapper for slides -->
+              <div class="carousel-inner" role="listbox">
+                <div class="item active">
+                  <img class="img-thumbnail img-center" src="http://i.imgur.com/pG9m5Xr.png" alt="screenshot0" style="height:400px">
+                  <div class="carousel-caption darken">
+                    <em>Cirrus</em> artistically visualizes word frequency with unique sizes.
+                  </div>
+                </div>
+                <div class="item">
+                  <img class="img-thumbnail img-center" src="http://i.imgur.com/E6XBOUh.png" alt="screenshot1" style="height:400px">
+                  <div class="carousel-caption darken">
+                    <em>Keywords in Context</em> provides the phrases surrounding a given word.
+                  </div>
+                </div>
+                <div class="item">
+                  <img class="img-thumbnail img-center" src="http://i.imgur.com/xq4AT44.png" alt="screenshot2" style="height:400px">
+                  <div class="carousel-caption darken">
+                    <em>Word Trends</em> displays the frequency of words in each segment of the text.
+                  </div>
+                </div>
+              </div>
+
+              <!-- Controls -->
+              <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+              </a>
+              <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+              </a>
+            </div>
+          </section>
 
           <section id="GroupE" >
               <article>
@@ -213,7 +274,7 @@
           <button type="button" class="aboutDHUMBtn btn btn-info btn-md" data-toggle="modal" data-target="#myModal">
           About DHUM
           </button>
-          
+
           <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog" role="document">
               <div class="modal-content">
@@ -231,9 +292,12 @@
             </div>
           </div>
 
-            <ul id="sidebar" class="nav nav-stacked fixed">
+            <ul id="sidebar" class="sideMenu nav nav-stacked fixed">
                 <li>
                   <a href="#top">Top</a>
+                </li>
+                <li>
+                    <a href="#GroupF">Log 6: Distant Reading</a>
                 </li>
                 <li>
                     <a href="#GroupE">Log 5: Metadata</a>

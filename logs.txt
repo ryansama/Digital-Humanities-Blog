@@ -24,4 +24,15 @@ Metadata, as defined by http://whatis.techtarget.com/definition/metadata, is inf
 
 In the digital world, a metadata vocabulary defines a set of control terms we use to organize such information about objects. An example of one such vocabulary is the Dublin Core Metadata Initiative (DCMI). DCMI's specifications provide guidelines for embedding organized, consistent and well-formatted data in digital objects. Thus, it is one of the most popular metadata vocabularies that are in use today.
 
-As stated by W3, http://www.w3.org/TR/tabular-metadata/, validation, conversion, display, and search of tabular data on the web requires metadata that describes how the data should be interpreted. A consistent vocabulary is necessary for computers to read, interpret, and filter digital objects. Metadata is important to humans because it allows for easier archiving. Metadata also allows authors'/creators' work to be discovered effortlessly. 
+As stated by W3, http://www.w3.org/TR/tabular-metadata/, validation, conversion, display, and search of tabular data on the web requires metadata that describes how the data should be interpreted. A consistent vocabulary is necessary for computers to read, interpret, and filter digital objects. Metadata is important to humans because it allows for easier archiving. Metadata also allows authors'/creators' work to be discovered effortlessly.
+
+---------------------------------------------------------------------------
+Log 6: Distant Reading in Text Analysis
+
+Use images in http://imgur.com/a/4Puma
+
+Reading, analyzing, and interpreting text are common tasks in the humanities. Today we have millions of literary works and books available for research, but performing close reading (reading every detail of a text repeatedly) on many of these works is tedious and time consuming. Distant reading is an alternative to this task.
+
+The motivation behind distant reading is to scan text and visualize its main ideas, word frequencies and trends. It is advantageous for scholars and researchers because it is much less time consuming than close reading. However, its capabilities are limited in that the user would be unable to obtain a deep understanding of the text.
+
+Software allow us to conduct this process without requiring the user to read the given text. Voyant Tools is an example of one such technology that accepts text and provides data such as graphs and details such as keyword density and word frequency. It is up to the user to interpret this information for their benefit in research.

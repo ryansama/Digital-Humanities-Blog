@@ -1,5 +1,0 @@
-Log 1: Short snippet of ~150 words about a person or object in history of computing
-
-Subject: Alan Turing
-
-Alan Turing was a renowned mathematician, wartime code-breaker, inventor, and a man ahead of his time. His work form cornerstones of the digital age, and have earned him recognition as one of the fathers of computer science. In his time, Turing developed a concept that would shape our modern world: the Turing Machine. This was an idea for a machine that could be programmed, or instructed, to perform different tasks. The Turing Machine is considered as the basis of the modern theory of computation. However, it is more commonly known as the computer. A few years prior to WWII, Turing began to work for the British government's cryptography analysis department. Here, he played the crucial role of decrypting the messages from Enigma (a sophisticated German encryption machine) with his own device known as Colossus. This provided a wealth of information to the Allies, and was assessed to have shortened the war by two years.

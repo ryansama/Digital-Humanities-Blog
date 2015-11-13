@@ -58,13 +58,13 @@
                 <div class="log6-text row log-content">
                   <div class="col-md-13">
                     <p class="log-content-para">
-                      Reading, analyzing, and interpreting text are common tasks in the humanities. Today we have millions of literary works and books available for research, but performing close reading (reading every detail of a text repeatedly) on many of these works is tedious and time consuming. Distant reading is an alternative to this task.
+                      The command line, also known as the "shell, "command prompt," or "terminal," is an interface that allows the user to perform various tasks in a computer without a graphical user interface(GUI). Moreover, the command line allows for directory (folder) exploration, program execution, and modification/analysis of plain text files without the use of a mouse. It is commonly used in text analysis and used rigorously in computer programming. Command line tasks are always performed by entering various commands and arguments. For exmaple, the commands <code>cd</code> (<em>change directory</em>), <code>pwd</code>(<em>print working directory</em>) and <code>ls</code> (<em>list</em> files) are used to view files and switch between directories in Unix-based shells.
                     </p>
                     <p class="log-content-para">
-                      The motivation behind distant reading is to scan text and visualize its main ideas, word frequencies and trends. It is advantageous for scholars and researchers because it is much less time consuming than close reading. However, its capabilities are limited in that the user would be unable to obtain a deep understanding of the text.
+                      Similarly, the <code>grep</code> command is often used when reading text files. Its main function is to search for lines containing a piece of text. The user can further customize their search by passing arguments such as <code>-n</code> (show line <em>numbers</em>) and <code>-c</code> (show line <em>count</em>). Even more specific searches can be made using regular expressions, which are strings of text that describe a search pattern. Regular expressions use symbols that can search for multiple instances of letters and numbers. These are often used in computer programs and websites to verify user input. For example, the expression <code>''\b[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}\b'</code> is used to verify whether an email address is in a correct format.
                     </p>
                     <p class="log-content-para">
-                      Software allow us to conduct this process without requiring the user to read the given text. <a href="http://voyant-tools.org/">Voyant</a> is an example of one such technology that accepts text and provides data such as graphs and details such as keyword density and word frequency. It is up to the user to interpret this information for their benefit in research. Below are screenshots of Voyant being used to analyze a speech by Abraham Lincoln.
+                      Below are instances of <code>grep</code> being used to search through <code>index.html</code>, the source code for this webpage.
                     </p>
                   </div>
                 </div>
@@ -80,21 +80,21 @@
               <!-- Wrapper for slides -->
               <div class="carousel-inner" role="listbox">
                 <div class="item active">
-                  <img class="img-thumbnail img-center" src="http://i.imgur.com/pG9m5Xr.png" alt="screenshot0" style="height:400px">
+                  <img class="img-thumbnail img-center" src="http://i.imgur.com/JMhxBrO.png" alt="grep0" style="height:400px">
                   <div class="carousel-caption darken">
-                    <em>Cirrus</em> artistically visualizes word frequency with unique sizes.
+                    <code class="no-shadow">grep -A 1 attention index.html</code> searches for the term "attention" and displays the lines containing it. View the output <a href="command-line/grep0.txt">here.</a>
                   </div>
                 </div>
                 <div class="item">
-                  <img class="img-thumbnail img-center" src="http://i.imgur.com/E6XBOUh.png" alt="screenshot1" style="height:400px">
+                  <img class="img-thumbnail img-center" src="http://i.imgur.com/HbLrZdh.png" alt="grep1" style="height:400px">
                   <div class="carousel-caption darken">
-                    <em>Keywords in Context</em> provides the phrases surrounding a given word.
+                    <code class="no-shadow">grep -n "Log [0-9] -" index.html</code> searches for all lines contiaining the expression "Log" followed by a number between 0 and 9 and a dash, and displays them with line numbers. <a href="command-line/grep1.txt">here.</a>
                   </div>
                 </div>
                 <div class="item">
-                  <img class="img-thumbnail img-center" src="http://i.imgur.com/xq4AT44.png" alt="screenshot2" style="height:400px">
+                  <img class="img-thumbnail img-center" src="http://i.imgur.com/Xlt3QA0.png" alt="grep2" style="height:400px">
                   <div class="carousel-caption darken">
-                    <em>Word Trends</em> displays the frequency of words in each segment of the text.
+                    <code class="no-shadow">grep -n &lt;meta index.html</code> searches for all lines containing a meta tag and displays them. View the output <a href="command-line/grep2.txt">here.</a>
                   </div>
                 </div>
               </div>

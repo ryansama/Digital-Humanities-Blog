@@ -2,6 +2,9 @@
 AUTHOR: RYAN SAMARAJEEWA
 DATE: 6 October 2015
 */
+.no-shadow{
+  text-shadow: None
+}
 .img-caption{
   padding-top: 10px;
 }

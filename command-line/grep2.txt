@@ -1,0 +1,12 @@
+5:  <meta charset="utf-8">
+6:  <meta name="DC.Title" content="Ryan Samarajeewa's DHUM 150 Logs">
+7:  <meta name="DC.Creator" content="Ryan Samarajeewa">
+8:  <meta name="DC.Subject" content="digital humanities">
+9:  <meta name="DC.Description" content="A website for DHUM 150">
+10:  <meta name="DC.Publisher" content="Ryan Samarajeewa">
+11:  <meta name="DC.Type" content="Text">
+12:  <meta name="DC.Format" content="text/html">
+13:  <meta name="DC.Language" content="en">
+14:  <meta name="DC.Rights" content="CC BY-NC">
+15:  <meta name="DC.Date" content="19 Octber 2015">
+16:  <meta http-equiv="content-type" content="text/html; charset=utf-8">

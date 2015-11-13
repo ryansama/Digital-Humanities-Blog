@@ -1,0 +1,7 @@
+55:                  <h3>Log 7 - <em>The Command Line</em></h3>
+117:                  <h3>Log 6 - <em>Distant Reading</em></h3>
+180:                <h3>Log 5 - <em>Metadata</em></h3>
+214:                <h3>Log 4 - <em>The Attention Economy</em></h3>
+242:                <h3>Log 3 - <em>Readability</em></h3>
+268:                <h3>Log 2 - <em>What is code?</em>: Testing in culture and code</h3>
+292:                <h3>Log 1 - <em>A Snippet of Computing History</em>: Alan Turing</h3>

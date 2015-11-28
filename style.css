@@ -2,16 +2,28 @@
 AUTHOR: RYAN SAMARAJEEWA
 DATE: 6 October 2015
 */
+.audacity-img{
+    height: 65%;
+    width: 65%;
+    margin-left: 120px;
+}
+audio {
+  margin: 0px 50% 0px 34%;
+  padding: 60px 0px 20px 0px;
+}
+
 .no-shadow{
   text-shadow: None
 }
 .img-caption{
   padding-top: 10px;
 }
+
 .log6-text{
   margin-left: 100px;
   margin-right: 100px;
 }
+
 .carousel-control, .carousel-control:active{
   opacity: 1.0;
 }

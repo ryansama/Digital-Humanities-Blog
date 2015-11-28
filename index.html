@@ -29,7 +29,7 @@
 
 
   <script>
-  
+/**
     (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
     (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
     m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -37,7 +37,7 @@
 
     ga('create', 'UA-68826859-1', 'auto');
     ga('send', 'pageview');
-
+*/
   </script>
 </head>
 <body>
@@ -49,14 +49,78 @@
       <div class="row content-padding">
         <!--Main Content -->
         <div class="col-md-9">
+          <section id="GroupH" >
+              <article>
+                <header>
+                  <h3>Log 8 - <em>Audio Manipulation and Licensing</em></h3>
+                  <h5>Posted on November 26th, 2015 by Ryan Samarajeewa</h5>
+                </header>
+                <div class="row log-content">
+                  <div class="col-md-12">
+                    <img class="img-thumbnail img-responsive span12 audacity-img" src="img/audacity-screenshot.PNG" alt="Analytics">
+                    <p class="log-content-para">
+                      We used the popular audio editor, Audacity, to compose combinations of works found in <a href="https://www.collectionscanada.gc.ca/gramophone/028011-9000-e.html" target="_blank">Library and and Archives Canada</a>. Below is my own piece consisting of Hubert Eisdell's <a href="http://amicus.collectionscanada.ca/aaweb-bin/aamain/itemdisp?sessionKey=999999999_142&amp;l=0&amp;d=2&amp;v=0&amp;lvl=1&amp;itm=31421000" target="_blank">"I don't suppose"</a>,  Émile Joannette's <a href="http://amicus.collectionscanada.ca/aaweb-bin/aamain/itemdisp?sessionKey=999999999_142&amp;l=0&amp;d=2&amp;v=0&amp;lvl=1&amp;itm=31394888">"Reel Duc de Windsor"</a>, and Henry Burr's <a href="http://amicus.collectionscanada.ca/aaweb-bin/aamain/itemdisp?sessionKey=999999999_142&amp;l=0&amp;d=2&amp;v=0&amp;lvl=1&amp;itm=31390802" target="_blank">"If I had my way"</a> with the following effects:
+                      <ul style="padding-left:80px;">
+                        <li>fade in</li>
+                        <li>fade out</li>
+                        <li>altered pitch</li>
+                      </ul>
+                      The details of each source piece is shown as well.
+                    </p>
+
+                    <audio controls>
+                      <source src="sound/final-clip.wav" type="audio/wav">
+                    </audio>
+
+                    <table class="table">
+                      <tr>
+                        <th>Artist</th>
+                        <th>Source File</th>
+                        <th>Length (min)</th>
+                        <th>Date Recorded (D M Y)</th>
+                      </tr>
+                      <tr>
+                        <td>Hubert Eisdell</td>
+                        <td><a href="http://www.collectionscanada.gc.ca/obj/m2/f7/17445.mp3">17445.mp3</a></td>
+                        <td>2:26</td>
+                        <td>26 Jan 1914</td>
+                      </tr>
+                      <tr>
+                        <td>Émile Joannette</td>
+                        <td><a href="http://www.collectionscanada.gc.ca/obj/m2/f7/13947.mp3">13947.mp3</a></td>
+                        <td>3:06</td>
+                        <td>18 Jun 1937</td>
+                      </tr>
+                      <tr>
+                        <td>Henry Burr</td>
+                        <td><a href="http://www.collectionscanada.gc.ca/obj/m2/f7/12045.mp3">12045.mp3</a></td>
+                        <td>3:11</td>
+                        <td>14 Jan 1914</td>
+                      </tr>
+                    </table>
+                    <p class="log-content-para">
+                      While creating this audio file was an exercise in audio manipulation, it also broadened our understanding of fair dealing in Canada. When reading about fair dealing, I discovered that considering <a href="http://www.uvic.ca/copyright/policies/copying_guidelines/index.php" target="_blank">fair dealing copying guidelines</a> is particularly important with regards to the production of audio that is composed of  copyright-protected sound. This is significant to me in that analyzing a produced work with respect to these guideleines are especially relevant in the academic setting. The restriction can be summarized: a student may communicate and reproduce, in paper or electronic format, <b>short excerpts</b> from a copyright-protected work. Short excerpts, in the context of audio production, is defined as less than 10% of the original sound recording. Of course, the student must provide respective sources, including authors and creators.
+                    </p>
+
+                    <p class="log-content-para">
+                      The circulation of new media is heavily affected by this guideline as well as other restrictions in the Copyright Act. The fair dealing copyright guideline, if followed, allows authors and creators to be exposed by academic usage of their works. Audio and music producers gain recognition with circulation of their work. In most cases, this is a beneficial outcome for both the scholar and content creator.
+                    </p>
+                    <p class="log-content-para">
+                      Licensing is a common method of restricting reproduction of a work. For example, the <a href="http://creativecommons.org/">Creative Commons</a> organization provides copyright licenses that give the public specific permissions to share and use creators' works. For example, I have chosen to be licensed under the <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License</a> (as seen in the footer).
+                    </p>
+
+                  </div>
+                </div>
+            </article>
+          </section>
           <section id="GroupG" >
               <article>
                 <header>
                   <h3>Log 7 - <em>The Command Line</em></h3>
                   <h5>Posted on November 12th, 2015 by Ryan Samarajeewa</h5>
                 </header>
-                <div class="log6-text row log-content">
-                  <div class="col-md-13">
+                <div class="row log-content">
+                  <div class="col-md-12">
                     <p class="log-content-para">
                       The command line, also known as the "shell, "command prompt," or "terminal," is an interface that allows the user to perform various tasks in a computer without a graphical user interface(GUI). Moreover, the command line allows for directory (folder) exploration, program execution, and modification/analysis of plain text files without the use of a mouse. It is commonly used in text analysis and used rigorously in computer programming. Command line tasks are always performed by entering various commands and arguments. For exmaple, the commands <code>cd</code> (<em>change directory</em>), <code>pwd</code>(<em>print working directory</em>) and <code>ls</code> (<em>list</em> files) are used to view files and switch between directories in Unix-based shells.
                     </p>
@@ -69,12 +133,12 @@
                   </div>
                 </div>
             </article>
-            <div id="myCarousel" class="log-6-carousel carousel slide" data-ride="carousel">
+            <div id="myCarousel2" class="log-6-carousel carousel slide" data-ride="carousel">
               <!-- Indicators -->
               <ol class="carousel-indicators">
-                <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-                <li data-target="#myCarousel" data-slide-to="1"></li>
-                <li data-target="#myCarousel" data-slide-to="2"></li>
+                <li data-target="#myCarousel2" data-slide-to="0" class="active"></li>
+                <li data-target="#myCarousel2" data-slide-to="1"></li>
+                <li data-target="#myCarousel2" data-slide-to="2"></li>
               </ol>
 
               <!-- Wrapper for slides -->
@@ -111,14 +175,14 @@
             </div>
           </section>
 
-          <section id="GroupF" >
+          <section id="GroupF">
               <article>
                 <header>
                   <h3>Log 6 - <em>Distant Reading</em></h3>
                   <h5>Posted on October 29th, 2015 by Ryan Samarajeewa</h5>
                 </header>
-                <div class="log6-text row log-content">
-                  <div class="col-md-13">
+                <div class="row log-content">
+                  <div class="col-md-12">
                     <p class="log-content-para">
                       Reading, analyzing, and interpreting text are common tasks in the humanities. Today we have millions of literary works and books available for research, but performing close reading (reading every detail of a text repeatedly) on many of these works is tedious and time consuming. Distant reading is an alternative to this task.
                     </p>
@@ -360,6 +424,14 @@
                 <li>
                   <a href="#top">Top</a>
                 </li>
+                <!--
+                <li>
+                    <a href="#GroupI">Log 9: Presentations</a>
+                </li>
+              -->
+                <li>
+                    <a href="#GroupH">Log 8: Audio &amp; Licensing</a>
+                </li>
                 <li>
                     <a href="#GroupG">Log 7: The Command Line</a>
                 </li>
@@ -393,9 +465,7 @@
     <p>
       Ryan Samarajeewa | DHUM 150 | 2015
     </p>
-    <p>
-      Copyright &copy; 2015 by Ryan Samarajeewa
-    </p>
+    <a style="padding:30px;"rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a>
 
   </footer>
 </body>
